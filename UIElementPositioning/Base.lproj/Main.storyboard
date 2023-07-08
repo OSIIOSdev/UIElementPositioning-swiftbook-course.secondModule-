@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -14,15 +14,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIElementPositioning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eR7-ZK-bTB">
-                                <rect key="frame" x="35" y="45" width="250" height="224"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <rect key="frame" x="35" y="69" width="344" height="359"/>
+                                <color key="backgroundColor" red="0.96186438110000005" green="0.70585890060000001" blue="0.32521071330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfx-8r-G6d">
-                                <rect key="frame" x="35" y="319" width="250" height="224"/>
+                                <rect key="frame" x="35" y="478" width="344" height="359"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                             </view>
                         </subviews>
@@ -33,10 +33,10 @@
                             <constraint firstItem="yfx-8r-G6d" firstAttribute="top" secondItem="eR7-ZK-bTB" secondAttribute="bottom" constant="50" id="Ksa-M4-Dfc"/>
                             <constraint firstItem="eR7-ZK-bTB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="Lzj-jz-KbZ"/>
                             <constraint firstItem="eR7-ZK-bTB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="ZQu-5l-e5d"/>
+                            <constraint firstItem="yfx-8r-G6d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bYM-2e-gMU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eR7-ZK-bTB" secondAttribute="trailing" constant="35" id="eQE-lk-eeP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yfx-8r-G6d" secondAttribute="trailing" constant="35" id="hJH-7C-xgw"/>
+                            <constraint firstItem="yfx-8r-G6d" firstAttribute="width" secondItem="eR7-ZK-bTB" secondAttribute="width" id="gLL-dH-iHw"/>
                             <constraint firstItem="yfx-8r-G6d" firstAttribute="height" secondItem="eR7-ZK-bTB" secondAttribute="height" id="iDx-tb-9LC"/>
-                            <constraint firstItem="yfx-8r-G6d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="iwL-mX-QWA"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -48,9 +48,6 @@
     <resources>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
